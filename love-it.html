@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rana</title>
+  </head>
+  <body>
+    <!-- Start Coding -->
+    <section class="banner">
+      <!-- Start Header -->
+      <header>
+        <img
+          class="logo"
+          src="images/logo.png"
+          alt="You"
+          title="It's For You"
+        />
+        <div class="toggle"></div>
+      </header>
+      <!-- End Header -->
+      <!-- Start The Main Section -->
+      <img
+        class="me"
+        src="images/man.png"
+        alt="Me"
+        title="I's Definitely Not Me"
+      />
+      <div class="content">
+        <!-- The Content -->
+        <div class="contentBx">
+          <h4>Hello,</h4>
+          <!-- My Name -->
+          <h2>I'm Ahmed</h2>
+          <!-- My Job -->
+          <h3 data-text="Newbie Web Designer">Newbie Web Designer</h3>
+          <!-- More D -->
+          <p>
+            I Am So Glad To Know You Liked It And I Will Pray To God To Help You
+            In Your Studies And Life And To Become The Best Dentist In Egypt And
+            Even The Whole World.
+          </p>
+          <!-- Your Opinie -->
+          <a href="love-it.html">You Already Love It</a>
+        </div>
+      </div>
+      <!-- End The Main Section -->
+      <!-- Start The Menu Section -->
+      <ul class="menu">
+        <li>
+          <a href="#">For</a>
+        </li>
+        <li>
+          <a href="#">Doctor</a>
+        </li>
+        <li>
+          <a href="#">Rana</a>
+        </li>
+        <li>
+          <a href="#">Ashraf</a>
+        </li>
+        <li>
+          <a href="#">Sallam</a>
+        </li>
+      </ul>
+      <!-- End The Menu Section -->
+      <img class="elements e1" src="images/1.png" />
+      <img class="elements e2" src="images/2.png" />
+      <img class="elements e3" src="images/3.png" />
+      <img class="elements e4" src="images/4.png" />
+    </section>
+    <!-- The Strat Of Javascipt Code -->
+    <!-- I don't Understand Anything Yet But It Seems Logic -->
+    <script>
+      const toggle = document.querySelector(".toggle");
+      const banner = document.querySelector(".banner");
+      toggle.onclick = function () {
+        toggle.classList.toggle("active");
+        banner.classList.toggle("active");
+      };
+    </script>
+    <!-- The End Of Javascipt Code -->
+  </body>
+</html>
