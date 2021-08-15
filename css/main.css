@@ -122,7 +122,7 @@ header .toggle.active {
 }
 .content .contentBx {
   position: relative;
-  max-width: 600px;
+  max-width: 500px;
 }
 .content .contentBx h4 {
   font-weight: 400;
@@ -134,7 +134,7 @@ header .toggle.active {
 .content .contentBx h2 {
   font-size: 4em;
   line-height: 1em;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 @media (max-width: 991px) {
   .content .contentBx h2 {
@@ -142,7 +142,7 @@ header .toggle.active {
   }
 }
 .content .contentBx h3 {
-  font-family: consolas;
+  font-family: consolas !important;
   font-weight: 300;
   color: transparent;
   font-size: 2em;
@@ -157,15 +157,16 @@ header .toggle.active {
 }
 .content .contentBx h3::before {
   content: attr(data-text);
+  font-family: consolas !important;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   white-space: nowrap;
-  border-right: 1px solid #fff;
+  border-right: 1px solid hsl(0, 0%, 100%);
   visibility: hidden;
   animation: typing 10s 3s steps(19) infinite;
 }
@@ -184,13 +185,13 @@ header .toggle.active {
 }
 .content .contentBx p {
   font-size: 1em;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   margin: 10px 0 20px;
   font-weight: 300;
 }
 .content .contentBx a {
   display: inline-block;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   padding: 15px 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -213,7 +214,7 @@ header .toggle.active {
 }
 .content .contentBx a:hover {
   letter-spacing: 4px;
-  background: #fff;
+  background: hsl(0, 0%, 100%);
   color: #111;
 }
 .banner.active .content,
@@ -252,11 +253,10 @@ header .toggle.active {
 }
 @media (max-width: 991px) {
   .menu li a {
-    color: #fff;
+    color: hsl(0, 0%, 100%);
   }
 }
 .menu li a {
-  color: #08381b;
   text-decoration: none;
   font-size: 1.5em;
   padding: 5px 10px;
@@ -266,8 +266,8 @@ header .toggle.active {
 }
 .menu li a:hover {
   letter-spacing: 6px;
-  background: #fff;
-  color: #161a23;
+  background: hsl(0, 0%, 100%);
+  color: var(--bg-color);
 }
 .elements {
   position: absolute;
