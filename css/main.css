@@ -148,6 +148,7 @@ header .toggle.active {
   font-size: 2em;
   line-height: 1.5em;
   width: fit-content;
+  height: fit-content;
   position: relative;
 }
 @media (max-width: 991px) {
@@ -210,12 +211,12 @@ header .toggle.active {
 }
 .content .contentBx a.dislike {
   background: var(--Section-color);
-  color: #111;
+  color: hsl(0, 0%, 7%);
 }
 .content .contentBx a:hover {
   letter-spacing: 4px;
   background: hsl(0, 0%, 100%);
-  color: #111;
+  color: hsl(0, 0%, 7%);
 }
 .banner.active .content,
 .banner.active .logo {
