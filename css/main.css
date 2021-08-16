@@ -143,10 +143,10 @@ header .toggle.active {
 }
 @font-face {
   font-family: consola;
-  src: url(/css/consola.ttf);
+  src: url(../fonts/consola.ttf);
 }
 .content .contentBx h3 {
-  font-family: consolas !important;
+  font-family: consola !important;
   font-weight: 300;
   color: transparent;
   font-size: 2em;
@@ -162,7 +162,7 @@ header .toggle.active {
 }
 .content .contentBx h3::before {
   content: attr(data-text);
-  font-family: consolas !important;
+  font-family: consola !important;
   position: absolute;
   top: 0;
   left: 0;
