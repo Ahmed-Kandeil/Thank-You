@@ -158,6 +158,7 @@ header .toggle.active {
 @media (max-width: 991px) {
   .content .contentBx h3 {
     font-size: 1.5em;
+    margin-top: 5px;
   }
 }
 .content .contentBx h3::before {
